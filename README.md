@@ -1,6 +1,6 @@
 # E-commerce
 
-Creating a E-commerce website using React, Node
+Creating an E-commerce website using React, Node & MongoDB
 
 
 Project setup
