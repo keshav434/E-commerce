@@ -1,6 +1,6 @@
 # E-commerce
 
-Creating an E-commerce website using React, Node & MongoDB
+Creating an E-commerce website using React, Node & MongoDB (MERN Stack)
 
 
 Project setup
