@@ -44,7 +44,7 @@
   color: #61dafb;
 }
 
-.register{
+.register, .product{
   margin: 14%;
 
 }
@@ -73,4 +73,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.login{
+  margin-left: 30%;
+  margin-top: 100px;
+}
+
+.nav-right{
+  text-align: right;
+
+}
+
+.invalid-input{
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 20px;
+}
+
+.product-list{
+  text-align:center;
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+.product-list ul li{
+  display: inline-block;
+  width: 150px;
+  border: solid 1px skyblue;
+  padding: 5px;
+}
+
+.product-list ul{
+  margin: 0px;
 }
