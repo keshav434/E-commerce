@@ -15,19 +15,17 @@ app.use(cors());
 function verifyToken(req, resp, next){
   let token = req.headers['authorization'];
   if(token){
-    token =  token.spilt(' ')[1];
+    token =  token.split(' ')[1]; // Corrected typo here
     jwt.verify(token, jwtKey, (err, valid)=>{
       if(err){
-        resp.status(401).send({result:"Please provide valide token"})
+        resp.status(401).send({result:"Please provide a valid token"}) // Typo corrected in the error message as well
       }else{
           next();
       }
     })
   }else{
     resp.status(403).send({result:"Please add token with header"})
-
   }
-  
 }
 
 app.post("/register", async (req, resp) => {
